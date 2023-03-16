@@ -15,6 +15,9 @@ n=45
 print (n//10==n%10)
 n=-44
 print (n//10==n%10)
+"""Create a function that accepts a measurement value in inches 
+and returns the equivalent of the measurement value in feet."""
+
 
 
 
@@ -46,10 +49,20 @@ def sum(x, y):
 print(sum(1, 3))
 print(sum(2, 0))
 
-    
+"""Create a function that accepts a measurement value 
+in inches and returns the equivalent of the measurement value in feet"""
+
+
+Inches=int(input("Enter the value of length in Inches:"))
+#convert Inches to Feet.
+Feet = Inches / 12;
+print("The in Feet",round(Feet,2))
+
+"""Create a function that takes a number as an argument and returns 
+"even" for even numbers and "odd" for odd numbers."""
 
 
 
     
-     
- 
+
+
